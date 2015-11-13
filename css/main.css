@@ -17,7 +17,7 @@ body{
 }
 
 header{
-  background-color: grey;
+  background-color: #fff;
 }
 
 .header-image{
@@ -25,6 +25,26 @@ header{
   background-repeat: no-repeat;
 }
 
+.bannercontent{
+  position: relative;
+  bottom: 2.5em;
+  left:-0.15em;
+  color: #0089a1;
+  width: 100%;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+.bannercontent img{
+  width: 23%;
+  margin: -1em 1em -5em 2em;
+  text-align: center;
+  border: none;
+}
 footer{
   background-color: grey;
+}
+
+.socialmedia{
+  width: 50%;
+  margin: -0.26em;
 }

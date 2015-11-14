@@ -13,17 +13,41 @@ html {
 }
 
 body{
-  font-family: 'Lato' sans-serif;
+  font-family: 'Lora' serif;
+  background-color: #66c1a6;
 }
 
 header{
   background-color: #fff;
 }
 
-.header-image{
+nav ul{
+	padding: 0;
+	margin: 0;
+  font-family: 'Lato' sans-serif;
+}
+
+
+ nav li{
+	display: inline-block;
+	width: 33%;
+}
+
+nav li:hover{
+		background-color: #000;
 
 }
 
+ nav li a{
+		padding: .5em;
+		display: block;
+		text-decoration: none;
+		color:#218f79;
+}
+
+ nav li a:hover{
+	color: #A6519E
+}
 .banner{
   position: relative;
   text-align: left;
@@ -52,10 +76,67 @@ header{
   border: none;
 }
 footer{
-  background-color: #66c1a6;
+  background-color: #218f79;
 }
 
 .socialmedia{
   width: 50%;
   margin: -0.26em;
+}
+
+h1{
+  color:#218f79;
+  font-family: 'lato' sans-serif;
+}
+
+.buckets{
+	width: 100%;
+	background-color: #218f79;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.buckets a{
+	text-decoration: none;
+	color: white;
+}
+
+.tour{
+	width: 100%;
+	background-color: #218f79;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.tour a{
+	text-decoration: none;
+	color: white;
+}
+
+.price{
+	width: 100%;
+	background-color: #218f79;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.price a{
+	text-decoration: none;
+	color: white;
+}
+
+.signup{
+	width: 100%;
+	background-color: #218f79;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.signup a{
+	text-decoration: none;
+	color: white;
 }

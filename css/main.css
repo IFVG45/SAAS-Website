@@ -145,3 +145,16 @@ p{
 	text-decoration: none;
 	color: white;
 }
+
+.create{
+	width: 100%;
+	background-color: #218f79;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.create a{
+	text-decoration: none;
+	color: white;
+}

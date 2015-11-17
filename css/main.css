@@ -19,6 +19,7 @@ body{
 
 header{
   background-color: #fff;
+  color:#fff;
 }
 
 .section-dark{
@@ -30,12 +31,15 @@ nav ul{
 	margin: 0;
   font-family: 'Lato' sans-serif;
 }
-
-
- nav li{
-	display: inline-block;
-	width: 33%;
+.nav a{
+  display:block;
 }
+.nav{
+  padding: 0;
+  margin:0;
+
+}
+
 
 nav li:hover{
 		background-color: #218f79;
@@ -46,7 +50,11 @@ nav li:hover{
 		padding: .5em;
 		display: block;
 		text-decoration: none;
-		color:#218f79;
+		color:#66c1a6;
+}
+
+.masthead{
+  text-align: center;
 }
 
  nav li a:hover{
@@ -54,35 +62,20 @@ nav li:hover{
 }
 .banner{
   position: relative;
-  text-align: left;
-  font-size: 0.5rem;
-  max-height: 75vh;
-  overflow: hidden;
-  clear:both;
-}
-.banner img{
-  width: 100%;
-  display: block;
-}
-.bannercontent{
-  position: relative;
-  bottom: 3.5em;
-  left:-0.89em;
-  color: #0089a1;
-  width: 100%;
-  font-size: 1.5em;
-  padding-left: 10px;
-}
-.bannercontent img{
-  width: 50%;
-  margin: -1em 1em -5em 2em;
   text-align: center;
-  border: none;
 }
-footer{
+.banner-img{
+  padding-top:75%;
+  background: url("../images/student.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+
+.footer{
   background-color: #218f79;
   color:#fff;
   font-family: 'lato' sans-serif;
+  text-align: center;
 }
 
 .socialmedia{
@@ -161,4 +154,44 @@ p{
 .create a{
 	text-decoration: none;
 	color: white;
+}
+
+
+
+@media only screen and (min-width: 25em){
+
+  .nav li{
+    display: inline-block;
+
+  }
+  .intro-wrap{
+    bottom:0;
+    position: absolute;
+  }
+
+  .header{
+    color:#fff;
+    text-shadow: 2px -4px 6px #94b761;
+  }
+  .intro{
+    color: #218f79;
+    font-family: 'lato' sans-serif;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em){
+
+  .masthead{
+    text-align: left;
+  }
+
+  .footer{
+    text-align: left;
+  }
+
+  .nav footer{
+    text-align: right;
+  }
 }

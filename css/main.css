@@ -21,6 +21,10 @@ header{
   background-color: #fff;
 }
 
+.section-dark{
+  background-color:#218f79;
+}
+
 nav ul{
 	padding: 0;
 	margin: 0;
@@ -70,7 +74,7 @@ nav li:hover{
   padding-left: 10px;
 }
 .bannercontent img{
-  width: 23%;
+  width: 50%;
   margin: -1em 1em -5em 2em;
   text-align: center;
   border: none;

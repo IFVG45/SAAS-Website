@@ -117,7 +117,7 @@ p{
 
   }
   .intro-wrap{
-    bottom:0;
+    top:10rem;
     position: absolute;
   }
 
@@ -172,7 +172,7 @@ p{
   }
 
   .intro-wrap{
-    bottom: 3.5rem;
+    bottom: 0;
 
   }
 }

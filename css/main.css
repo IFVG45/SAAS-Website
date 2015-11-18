@@ -69,8 +69,9 @@ nav li:hover{
   background: url("../images/student.jpg") no-repeat center center;
   background-size: cover;
 }
-
-
+.banner-simple{
+  background: url("../images/student.jpg") no-repeat center center;
+}
 .footer{
   background-color: #218f79;
   color:#fff;

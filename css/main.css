@@ -70,7 +70,9 @@ nav li:hover{
   background-size: cover;
 }
 .banner-simple{
+  padding-top:75%;
   background: url("../images/student.jpg") no-repeat center center;
+  background-size: cover;
 }
 .footer{
   background-color: #218f79;
@@ -130,6 +132,29 @@ p{
 
   }
 
+  .banner-simple{
+    padding-top:75%;
+    background: url("../images/student.jpg") no-repeat center center;
+    background-size: cover;
+  }
+ .time{
+   bottom: 26rem;
+   position: absolute;
+   text-align: center;
+
+ }
+ .track{
+   bottom: 0.3rem;
+   position: absolute;
+   text-align: center;
+
+ }
+ .file{
+   bottom: 26rem;
+   position: absolute;
+   text-align: center;
+
+ }
 }
 
 @media only screen and (min-width: 38em){

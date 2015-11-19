@@ -35,7 +35,6 @@ nav ul{
 	padding: 0;
 	margin: 0;
   font-family: 'Lato' sans-serif;
-  text-decoration: none;
 }
 .nav a{
   display:block;
@@ -95,8 +94,7 @@ nav li:hover{
 }
 
 .social-media {
-  float: left;
-  width: 35%;
+  width: 25%;
   max-width: 20rem;
 }
 

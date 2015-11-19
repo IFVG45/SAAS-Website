@@ -73,6 +73,7 @@ nav li:hover{
 }
 .banner-img{
   padding-top:75%;
+  padding-bottom:30%;
   background: url("../images/student.jpg") no-repeat center center;
   background-size: cover;
 }
@@ -172,24 +173,7 @@ h2{
     background: url("../images/student.jpg") no-repeat center center;
     background-size: cover;
   }
-  .time{
-    float: left;
-    position: relative;
-    text-align: center;
 
-  }
-  .track{
-    bottom: 0.3rem;
-    position: absolute;
-    text-align: center;
-
-  }
-  .file{
-    bottom: 0.3rem;
-    position: absolute;
-    text-align: center;
-
-  }
  }
 h3{
   font-size: 1.7em;
@@ -220,14 +204,15 @@ h2{
     text-align: left;
   }
 
-  .nav footer{
-    text-align: right;
-  }
-
   .intro-wrap{
     bottom: 0;
 
   }
+
+  .nav footer{
+    text-align: left;
+  }
+
 
   .social-media {
   float: left;

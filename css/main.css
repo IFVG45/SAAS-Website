@@ -12,6 +12,9 @@ html {
   box-sizing: inherit;
 }
 
+.flex{
+  width:45%;
+}
 body{
   font-family: 'Lora' serif;
   background-color: #66c1a6;
@@ -196,6 +199,10 @@ h2{
 
 @media only screen and (min-width: 38em){
 
+  .flex{
+    width:50%;
+  }
+
   .masthead{
     text-align: left;
   }
@@ -243,4 +250,27 @@ h2{
 }
 
 
+}
+
+@media only screen and (min-width: 60em) {
+  .flex{
+    width:100%;
+  }
+  h3{
+    font-size: 1.9em;
+    text-align: center;
+    font-family: 'Lato' sans-serif;
+    position: relative;
+  }
+
+  h2{
+    font-size: 1.9em;
+    text-align: center;
+    font-family: 'Lato' sans-serif;
+    color:#218f79;
+  }
+
+  .p{
+    font-size: 1.9em;
+  }
 }

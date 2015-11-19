@@ -22,11 +22,6 @@ header{
   color:#fff;
 }
 
-
-.logo {
-  max-width: 45px;
-}
-
 .section-dark{
   background-color:#218f79;
 }
@@ -236,7 +231,7 @@ h2{
 
   .social-media {
   float: left;
-  width: 75%;
+  width: 55%;
   max-width: 5rem;
 }
 

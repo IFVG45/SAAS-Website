@@ -35,6 +35,7 @@ nav ul{
 	padding: 0;
 	margin: 0;
   font-family: 'Lato' sans-serif;
+  text-decoration: none;
 }
 .nav a{
   display:block;
@@ -56,6 +57,7 @@ nav li:hover{
 		display: block;
 		text-decoration: none;
 		color:#66c1a6;
+    font-size: 1.5em;
 }
 
 .masthead{
@@ -72,7 +74,7 @@ nav li:hover{
  max-height: 75vh;
  overflow: hidden;
  clear:both;
- 
+
 
 }
 .banner-img{
@@ -106,22 +108,55 @@ h1{
 
 p{
   color:#fff;
+  font-size: 1.5em;
 }
 
-
-.header{
-  max-width: 25em;
-}
 .intro{
   text-align: center;
   max-width: 25em;
 
 }
+.buckets{
+	width: 100%;
+	background-color: #218f79;
+  color:#e8e883;
+	text-align: center;
+  padding: .2em;
+  margin-bottom: 2em;
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  position:relative;
+
+}
+
+.buckets a{
+	text-decoration: none;
+	color: white;
+}
+
+h3{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
+}
+
+h2{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
+  color:#218f79;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 25em){
 
   .nav li{
     display: inline-block;
+    font-size: 1.5em;
 
   }
   .intro-wrap{
@@ -130,8 +165,8 @@ p{
   }
 
   .header{
-    color:#fff;
-    text-shadow: 2px -4px 6px #94b761;
+    color:#218f79;
+    text-shadow: 2px -4px 6px #e8e883;
   }
   .intro{
     color: #218f79;
@@ -144,25 +179,43 @@ p{
     background: url("../images/student.jpg") no-repeat center center;
     background-size: cover;
   }
- .time{
-   bottom: 26rem;
-   position: absolute;
-   text-align: center;
+  .time{
+    float: left;
+    position: relative;
+    text-align: center;
 
- }
- .track{
-   bottom: 0.3rem;
-   position: absolute;
-   text-align: center;
+  }
+  .track{
+    bottom: 0.3rem;
+    position: absolute;
+    text-align: center;
 
- }
- .file{
-   bottom: 26rem;
-   position: absolute;
-   text-align: center;
+  }
+  .file{
+    bottom: 0.3rem;
+    position: absolute;
+    text-align: center;
 
+  }
  }
+h3{
+  font-size: 1.7em;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
 }
+
+h2{
+  font-size: 1.7em;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
+  color:#218f79;
+}
+
+.p{
+  font-size: 1.7em;
+}
+
+
 
 @media only screen and (min-width: 38em){
 
@@ -188,4 +241,28 @@ p{
   width: 75%;
   max-width: 5rem;
 }
+
+h3{
+  font-size: 1.9em;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
+}
+
+h2{
+  font-size: 1.9em;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
+  color:#218f79;
+}
+
+.p{
+  font-size: 1.9em;
+}
+
+.header{
+  color:#fff;
+  text-shadow: 2px -4px 6px #e8e883;
+}
+
+
 }

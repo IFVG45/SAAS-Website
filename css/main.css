@@ -66,8 +66,14 @@ nav li:hover{
 	color: #e8e883;
 }
 .banner{
-  position: relative;
-  text-align: center;
+ position: relative;
+ text-align: center;
+ font-size: 1.5rem;
+ max-height: 75vh;
+ overflow: hidden;
+ clear:both;
+ 
+
 }
 .banner-img{
   padding-top:75%;
@@ -75,6 +81,7 @@ nav li:hover{
   background-size: cover;
 }
 .banner-simple{
+  padding-top:75%;
   background: url("../images/student.jpg") no-repeat center center;
   background-size: cover;
 }

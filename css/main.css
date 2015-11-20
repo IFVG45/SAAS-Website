@@ -244,11 +244,11 @@ h4{
   .intro-wrap{
     position: absolute;
     top:25%;
-    left:7%;
+    left:15%;
     }
   .intro{
     position: relative;
-    left:7.5%;
+    left:9%;
   }
   .nav footer{
     text-align: left;
@@ -284,7 +284,7 @@ h2{
   text-shadow: 2px -4px 6px #e8e883;
   position: relative;
   left:7%;
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 h4{

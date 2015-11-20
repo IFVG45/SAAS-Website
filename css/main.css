@@ -208,10 +208,6 @@ h2{
 
 @media only screen and (min-width: 38em){
 
-  .flex{
-    width:50%;
-  }
-
   .masthead{
     text-align: left;
   }
@@ -221,9 +217,9 @@ h2{
   }
 
   .intro-wrap{
-    bottom: 0;
-
-  }
+    position: absolute;
+    top:32%;
+    }
 
   .nav footer{
     text-align: left;
@@ -256,6 +252,8 @@ h2{
 .header{
   color:#fff;
   text-shadow: 2px -4px 6px #e8e883;
+  position: relative;
+  left:7%;
 }
 
 

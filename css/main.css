@@ -115,6 +115,7 @@ p{
   max-width: 25em;
 
 }
+
 .buckets{
 	width: 100%;
 	background-color: #218f79;
@@ -159,18 +160,24 @@ h2{
 
   }
   .intro-wrap{
-    top:10rem;
+    top:15%;
     position: absolute;
   }
 
   .header{
     color:#218f79;
     text-shadow: 2px -4px 6px #e8e883;
+    font-size:4em;
+    position: relative;
+    left:3.5%;
   }
   .intro{
     color: #218f79;
     font-family: 'lato' sans-serif;
     text-align: center;
+    position: relative;
+    left:3%;
+    font-size:1.5em;
 
   }
 
@@ -197,6 +204,7 @@ h2{
   font-size: 1.7em;
   text-align: center;
 }
+
 
 @media only screen and (min-width: 38em){
 

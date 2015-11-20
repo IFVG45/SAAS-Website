@@ -12,6 +12,14 @@ a {
   background-color: transparent;
 }
 
+.embed__item {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 sub, sup {
   font-size: 75%;
   line-height: 1px;

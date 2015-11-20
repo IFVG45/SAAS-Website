@@ -54,7 +54,7 @@ nav li:hover{
 		display: block;
 		text-decoration: none;
 		color:#66c1a6;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .masthead{
@@ -67,13 +67,12 @@ nav li:hover{
 .banner{
  position: relative;
  text-align: center;
- font-size: 1.5rem;
+ font-size: 1rem;
  max-height: 75vh;
  overflow: hidden;
  clear:both;
-
-
 }
+
 .banner-img{
   padding-top:75%;
   padding-bottom:30%;
@@ -82,6 +81,7 @@ nav li:hover{
 }
 .banner-simple{
   padding-top:75%;
+  padding-top:30%;
   background: url("../images/student.jpg") no-repeat center center;
   background-size: cover;
 }
@@ -254,14 +254,14 @@ h2{
 
 @media only screen and (min-width: 60em) {
   .flex{
-    width:100%;
+    width:80%;
+    position: relative;
+    left: 28%;
   }
   h3{
     font-size: 1.9em;
-    text-align: center;
     font-family: 'Lato' sans-serif;
-    position: relative;
-  }
+}
 
   h2{
     font-size: 1.9em;
@@ -270,7 +270,27 @@ h2{
     color:#218f79;
   }
 
-  .p{
-    font-size: 1.9em;
+  .intro{
+    color: #218f79;
+    font-family: 'lato' sans-serif;
+    text-align: center;
+    position: relative;
+    left:15%
+
   }
+
+  .header{
+    color:#218f79;
+    text-shadow: 2px -4px 6px #e8e883;
+    position: relative;
+    left:17%;
+    font-size:3.5em;
+  }
+
+  .buckets{
+    position: relative;
+    left:17%;
+    padding:.4em;
+    margin:.4em;
+
 }

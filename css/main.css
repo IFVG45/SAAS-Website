@@ -12,11 +12,9 @@ html {
   box-sizing: inherit;
 }
 
-.flex{
-  width:45%;
-  position: relative;
-  left:27%;
-  padding-top:8%;
+.img-flex{
+  width:100%;
+  padding-top:9%;
 }
 body{
   font-family: 'Lora' serif;
@@ -26,6 +24,7 @@ body{
 header{
   background-color: #fff;
   color:#fff;
+
 }
 
 .section-dark{
@@ -182,13 +181,13 @@ h2{
 
  }
 h3{
-  font-size: 1.7em;
+  font-size: 2em;
   text-align: center;
   font-family: 'Lato' sans-serif;
 }
 
 h2{
-  font-size: 1.7em;
+  font-size: 1.9em;
   text-align: center;
   font-family: 'Lato' sans-serif;
   color:#218f79;
@@ -196,9 +195,8 @@ h2{
 
 .p{
   font-size: 1.7em;
+  text-align: center;
 }
-
-
 
 @media only screen and (min-width: 38em){
 
@@ -256,10 +254,8 @@ h2{
 }
 
 @media only screen and (min-width: 60em) {
-  .flex{
-    width:80%;
-    position: relative;
-    left: 28%;
+  .img-flex{
+    width:50%;
   }
   h3{
     font-size: 1.9em;

@@ -248,7 +248,7 @@ h4{
     }
   .intro{
     position: relative;
-    left:9%;
+    left:1.5%;
   }
   .nav footer{
     text-align: left;
@@ -283,7 +283,7 @@ h2{
   color:#fff;
   text-shadow: 2px -4px 6px #e8e883;
   position: relative;
-  left:7%;
+  left:1%;
   font-size: 3.5em;
 }
 

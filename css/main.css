@@ -134,6 +134,25 @@ p{
 	color: white;
 }
 
+.action-button{
+	width: 100%;
+	background-color: #218f79;
+  color:#e8e883;
+	text-align: center;
+  padding: .2em;
+  margin-bottom: 2em;
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  position:relative;
+
+}
+
+.action-button a{
+	text-decoration: none;
+	color: white;
+}
+
+
 h3{
   font-size: 1.5em;
   text-align: center;
@@ -206,6 +225,7 @@ h2{
 }
 
 
+
 @media only screen and (min-width: 38em){
 
   .masthead{
@@ -218,9 +238,13 @@ h2{
 
   .intro-wrap{
     position: absolute;
-    top:32%;
+    top:25%;
+    left:7%;
     }
-
+  .intro{
+    position: relative;
+    left:7.5%;
+  }
   .nav footer{
     text-align: left;
   }
@@ -260,8 +284,10 @@ h2{
 }
 
 @media only screen and (min-width: 60em) {
-  .img-flex{
-    width:50%;
+  .img-flex {
+    width: 78%;
+    position: relative;
+    left:6%;
   }
   h3{
     font-size: 1.9em;
@@ -280,22 +306,40 @@ h2{
     font-family: 'lato' sans-serif;
     text-align: center;
     position: relative;
-    left:15%
+    left:24%;
+    font-size: 2em;
 
   }
+
+  .intro-wrap{
+    position: absolute;
+    top:2%;
+    right:30.7%;
+    }
 
   .header{
     color:#218f79;
     text-shadow: 2px -4px 6px #e8e883;
     position: relative;
-    left:17%;
-    font-size:3.5em;
+    left:29%;
+    font-size:6em;
+    bottom:34%;
+
   }
 
   .buckets{
     position: relative;
-    left:17%;
-    padding:.4em;
-    margin:.4em;
+    right:1%;
+    padding:1.5em;
+  }
 
+  .social-media {
+  float: left;
+  width: 90%;
+  max-width: 10rem;
+}
+
+.action-button{
+  position: absolute;
+  left:21%;
 }

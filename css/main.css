@@ -5,23 +5,39 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Lato' sans-serif;
-  font-family: 'Laro' serif;
+  font-family: 'Lora' serif;
 }
 
 *,*::before,*::after{
   box-sizing: inherit;
 }
-
-a:focus{
-  outline: 3px solid #000;
-}
 .img-flex{
   width:100%;
-  padding-top:9%;
+  display: block;
 }
-body{
+
+.title {
+  display: block;
+
+  text-align: center;
+}
+.title a {
+  color: white;
+  text-decoration: none;
+}
+
+.varela{
   font-family: 'Lora' serif;
-  background-color: #fff;
+}
+
+.intro{
+  font-family: 'Lato' sans-serif;
+}
+
+.focus{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
 }
 
 .skip-links{
@@ -44,71 +60,79 @@ body{
    top:0;
 }
 
-header{
-  background-color: #fff;
-  color:#218f79;
-
-}
-
-.section-dark{
-  background-color:#fff;
-}
-
-nav ul{
-	padding: 0;
-	margin: 0;
-  font-family: 'Lato' sans-serif;
-}
 .nav a{
   display:block;
 }
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav a.current {
+  background-color: #fff;
+  color:#e8e882;
+
+}
+
 .nav{
   padding: 0;
-  margin:0;
-
+  list-style-type: none;
+}
+.hover:hover {
+  color: white;
+  background-color: #2587c8;
 }
 
-
-nav li:hover{
-		background-color: #218f79;
-
-}
-
- nav li a{
-		padding: .5em;
-		display: block;
-		text-decoration: none;
-		color:#66c1a6;
-    font-size: 1em;
-}
 
 .masthead{
   text-align: center;
 }
 
- nav li a:hover{
-	color: #e8e883;
-}
-.banner{
- position: relative;
- text-align: center;
- font-size: 1rem;
- max-height: 75vh;
- overflow: hidden;
- clear:both;
+.section-dark{
+  background:#66c1a6;
 }
 
-.banner-img{
-  padding-top:75%;
-  padding-bottom:30%;
-  background: url("../images/students.jpg") no-repeat center center;
-  background-size: cover;
+.section-mid{
+  background: #e2e2e2;
 }
-.banner-simple{
-  padding-top:75%;
-  padding-top:30%;
-  background: url("../images/students.jpg") no-repeat center center;
+
+.section{
+  background-color: #efefef;
+}
+.banner {
+  background-image: url(../images/students.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+.banner-tour {
+  background-image: url(../images/students.jpg);
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.banner-pricing {
+  background-image: url(../images/students.jpg);
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.banner-signup {
+  background-image: url(../images/students.jpg);
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
 }
 .footer{
   background-color: #218f79;
@@ -125,29 +149,18 @@ nav li:hover{
 h1{
   color:#218f79;
   font-family: 'lato' sans-serif;
+  font-size: 3em;
 }
 
-
-p{
-  color:#fff;
-  font-size: 1.5em;
-}
-
-.intro{
-  text-align: center;
-  max-width: 25em;
-
-}
 
 .buckets{
 	width: 100%;
 	background-color: #218f79;
-  color:#e8e883;
+  color:#fff;
 	text-align: center;
-  padding: .2em;
+  padding: 1.5em;
   margin-bottom: 2em;
-  border-radius: 0.25em;
-  font-size: 1.5em;
+  font-size: 3em;
   position:relative;
 
 }
@@ -157,16 +170,18 @@ p{
 	color: white;
 }
 
+
 .action-button{
-	width: 100%;
-	background-color: #218f79;
-  color:#e8e883;
+	width: 50%;
+	background-color: #e8e882;
+  color:#0c5145;
 	text-align: center;
-  padding: .2em;
-  margin-bottom: 2em;
+  padding: 2em;
+  margin-bottom: 0.5em;
   border-radius: 0.25em;
   font-size: 1.5em;
   position:relative;
+  left:24%;
 
 }
 
@@ -180,10 +195,11 @@ h3{
   font-size: 1.5em;
   text-align: center;
   font-family: 'Lato' sans-serif;
+  padding: 0.5em;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 2.0em;
   text-align: center;
   font-family: 'Lato' sans-serif;
   color:#218f79;
@@ -211,14 +227,18 @@ button{
   cursor: pointer;
 }
 
-
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
 
 
 @media only screen and (min-width: 25em){
 
   .nav li{
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 
   }
   .intro-wrap{
@@ -227,19 +247,20 @@ button{
   }
 
   .header{
-    color:#218f79;
-    text-shadow: 2px -4px 6px #e8e883;
-    font-size:3.5em;
+    color:#fff;
+    font-size:4em;
     position: relative;
     left:3.5%;
+    bottom:0.5em;
   }
   .intro{
-    color: #218f79;
+    color: #fff;
     font-family: 'lato' sans-serif;
     text-align: center;
     position: relative;
-    left:3%;
-    font-size:1.5em;
+    left:1%;
+
+    font-size:2em;
 
   }
 h3{
@@ -324,10 +345,9 @@ h2{
 
 .header{
   color:#fff;
-  text-shadow: 2px -4px 6px #e8e883;
   position: relative;
   left:1%;
-  font-size: 3.5em;
+  font-size:3.5em;
 }
 
 h4{

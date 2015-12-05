@@ -11,14 +11,14 @@ html {
 *,*::before,*::after{
   box-sizing: inherit;
 }
-.img-flex{
-  width:100%;
-  display: block;
+
+body{
+  margin: 0;
+  padding: 0;
 }
 
 .title {
   display: block;
-
   text-align: center;
 }
 .title a {
@@ -34,11 +34,6 @@ html {
   font-family: 'Lato' sans-serif;
 }
 
-.focus{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 20em;
-}
 
 .skip-links{
   margin: 0;
@@ -70,6 +65,11 @@ html {
   background-color: #fff;
   color:#e8e882;
 
+}
+
+.img-flex{
+  width:100%;
+  display: block;
 }
 
 .nav{
@@ -125,15 +125,6 @@ html {
   padding: 3.5em;
 }
 
-.banner-signup {
-  background-image: url(../images/students.jpg);
-  background-size: cover;
-  background-color: black;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: white;
-  padding: 3.5em;
-}
 .footer{
   background-color: #218f79;
   color:#fff;
@@ -151,7 +142,6 @@ h1{
   font-family: 'lato' sans-serif;
   font-size: 3em;
 }
-
 
 .buckets{
 	width: 100%;
@@ -198,13 +188,6 @@ h3{
   padding: 0.5em;
 }
 
-h2{
-  font-size: 2.0em;
-  text-align: center;
-  font-family: 'Lato' sans-serif;
-  color:#218f79;
-}
-
 label{
   display: block;
   cursor: pointer;
@@ -236,67 +219,22 @@ a:visited {
 
 @media only screen and (min-width: 25em){
 
-  .nav li{
-    display: inline-block;
-    font-size: 1.5rem;
+.nav{
+  text-align: center;
+}
 
-  }
-  .intro-wrap{
-    top:15%;
-    position: absolute;
-  }
+.nav li{
+  display: inline-block;
+}
 
-  .header{
-    color:#fff;
-    font-size:4em;
-    position: relative;
-    left:3.5%;
-    bottom:0.5em;
-  }
-  .intro{
-    color: #fff;
-    font-family: 'lato' sans-serif;
-    text-align: center;
-    position: relative;
-    left:1%;
-
-    font-size:2em;
-
-  }
 h3{
   font-size: 2em;
   text-align: center;
   font-family: 'Lato' sans-serif;
 }
 
-h2{
-  font-size: 1.9em;
-  text-align: center;
-  font-family: 'Lato' sans-serif;
-  color:#218f79;
-}
-
-.p{
-  font-size: 1em;
-  text-align: center;
-}
-
-h4{
-  color:#fff;
-  font-family: 'lato' sans-serif;
-  text-align: center;
-  font-size:1.9em;
-}
-
-.flex {
-  width: 78%;
-  position: relative;
-  left:6%;
-}
-
 
 @media only screen and (min-width: 38em){
-
   .masthead{
     text-align: left;
   }
@@ -305,19 +243,17 @@ h4{
     text-align: left;
   }
 
-  .intro-wrap{
-    position: absolute;
-    top:25%;
-    left:15%;
-    }
-  .intro{
-    position: relative;
-    left:1.5%;
+  .nav{
+    text-align: right;
   }
+
   .nav footer{
     text-align: left;
   }
 
+  .title, {
+     text-align: left;
+   }
 
   .social-media {
   float: left;
@@ -325,83 +261,12 @@ h4{
   max-width: 5rem;
 }
 
-h3{
-  font-size: 1.9em;
-  text-align: center;
-  font-family: 'Lato' sans-serif;
-}
-
-h2{
-  font-size: 1.9em;
-  text-align: center;
-  font-family: 'Lato' sans-serif;
-  color:#218f79;
-}
-
-.p{
-  font-size: 1.9em;
-}
-
-
-.header{
-  color:#fff;
-  position: relative;
-  left:1%;
-  font-size:3.5em;
-}
-
-h4{
-  color:#000;
-  font-family: 'lato' sans-serif;
-  text-align: center;
-  font-size: 3em;
-}
-
-}
 
 @media only screen and (min-width: 60em) {
-  .img-flex {
-    width: 78%;
-    position: relative;
-    left:6%;
-  }
-  h3{
-    font-size: 1.7em;
-    font-family: 'Lato' sans-serif;
-}
 
-  h2{
-    font-size: 1.7em;
-    text-align: center;
-    font-family: 'Lato' sans-serif;
-    color:#218f79;
-  }
-
-  .intro{
-    color: #218f79;
-    font-family: 'lato' sans-serif;
-    text-align: center;
-    position: relative;
-    left:24%;
-    font-size: 2em;
-
-  }
-
-  .intro-wrap{
-    position: absolute;
-    top:1%;
-    right:30.7%;
-    }
-
-  .header{
-    color:#218f79;
-    text-shadow: 2px -4px 6px #e8e883;
-    position: relative;
-    left:20%;
-    font-size:4em;
-    top:38%;
-
-  }
+.title, {
+   text-align: left;
+ }
 
   .buckets{
     position: relative;
@@ -418,24 +283,6 @@ h4{
 .action-button{
   position: absolute;
   left:21%;
-}
-
-h4{
-  color:#000;
-  font-family: 'lato' sans-serif;
-  text-align: center;
-  font-size: 6em;
-  position: relative;
-  top:15%;
-
-}
-
-.intro2{
-  color: #218f79;
-  font-family: 'laro' serif;
-  text-align: center;
-  font-size: 4em;
-
 }
 
 }

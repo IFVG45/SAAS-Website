@@ -88,7 +88,6 @@ body{
 
 .img-flex{
   width:100%;
-  display: block;
 }
 
 .nav{
@@ -129,6 +128,11 @@ h2{
 .social-media {
   width: 25%;
   max-width: 20rem;
+}
+
+.buckets{
+  color: #218f79;
+  background-color: #e8e883;
 }
 
 h1{

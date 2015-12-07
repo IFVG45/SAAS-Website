@@ -30,10 +30,11 @@ body{
 
 .bannerbutton a{
   width: 200px;
-  background-color: white;
-  color: #e34445;
+  background-color: rgba(232,232,131,0.8);
+  color: #218f79;
   border-radius: 10px;
 }
+
 .bannerbutton a:hover{
   background-color: white;
   color: #a1ae56;
@@ -100,7 +101,7 @@ body{
 }
 
 h2{
-  background-color:rgba(124,65,99,0.5);
+  background-color:rgba(102,195,168,0.5);
 }
 
 .masthead{

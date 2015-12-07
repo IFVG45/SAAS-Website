@@ -130,16 +130,18 @@ h2{
   max-width: 20rem;
 }
 
-.buckets{
-  color: #218f79;
-  background-color: #e8e883;
-}
-
 h1{
   color:#218f79;
   font-family: 'lato' sans-serif;
   font-size: 3em;
 }
+
+.buckets{
+  color: #218f79;
+  background-color: #e8e883;
+  padding: 1em;
+}
+
 
 
 label{
@@ -179,12 +181,6 @@ a:visited {
 
 .nav li{
   display: inline-block;
-}
-
-h3{
-  font-size: 2em;
-  text-align: center;
-  font-family: 'Lato' sans-serif;
 }
 
 

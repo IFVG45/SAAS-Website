@@ -49,7 +49,32 @@ body{
   color: white;
 }
 
+.banner-tour {
+  background-image: url(../images/students.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
 
+.banner-pricing {
+  background-image: url(../images/students.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
+
+.banner-tour {
+  background-image: url(../images/students.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 3.5em;
+}
 .skip-links{
   margin: 0;
   padding: 0;

@@ -119,10 +119,6 @@ body{
   background-color: #67c2a7;
 }
 
-.img-flex{
-  width:100%;
-}
-
 .nav{
   padding: 0;
   list-style-type: none;
@@ -155,7 +151,7 @@ h2{
 }
 
 .social-media {
-  width: 25%;
+  width: 30%;
   max-width: 20rem;
 }
 
@@ -170,7 +166,7 @@ h1{
 .buckets{
   color: #218f79;
   background-color: #e8e883;
-  padding: 1em;
+  padding:0.5em;
 }
 
 label{
@@ -201,12 +197,6 @@ a:link,
 a:visited {
   text-decoration: none;
 }
-
-.top{
-overflow: hidden;
-
-}
-
 
 @media only screen and (min-width: 25em){
 
@@ -245,12 +235,6 @@ overflow: hidden;
      text-align: left;
    }
 
-  .social-media {
-  float: left;
-  width: 55%;
-  max-width: 5rem;
-}
-
 
 .buckets {
     padding: 1em;
@@ -263,12 +247,6 @@ overflow: hidden;
 .title, {
    text-align: left;
  }
-
-  .social-media {
-  float: left;
-  width: 90%;
-  max-width: 5rem;
-}
 
 .buckets {
     padding: 1em;

@@ -52,6 +52,7 @@ body{
   background-image: url(../images/students.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding:1em;
   text-align: center;
   color: white;
 }
@@ -159,9 +160,11 @@ h2{
 }
 
 h1{
-  color:#218f79;
+  color:#fff;
   font-family: 'lato' sans-serif;
   font-size: 3em;
+  background-color:rgba(102,195,168,0.5);
+  width:100%;
 }
 
 .buckets{
@@ -190,6 +193,7 @@ button{
   padding: 0.5em;
   border-radius: 10px;
   cursor: pointer;
+  background-color:#e8e882;
 }
 
 a,

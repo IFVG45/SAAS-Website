@@ -148,7 +148,7 @@ h2{
 }
 
 .footer{
-  background-color: #218f79;
+  background-color: #e8e882;
   color:#fff;
   font-family: 'lato' sans-serif;
   text-align: center;
@@ -201,6 +201,12 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+.top{
+overflow: hidden;
+
+}
+
 
 @media only screen and (min-width: 25em){
 

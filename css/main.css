@@ -28,6 +28,12 @@ body{
   text-decoration: none;
 }
 
+.max{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
+}
+
 .bannerbutton a{
   width: 200px;
   background-color: rgba(232,232,131,0.8);
@@ -51,7 +57,7 @@ body{
 
 .banner-tour {
   background-image: url(../images/students.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -60,14 +66,14 @@ body{
 
 .banner-pricing {
   background-image: url(../images/students.jpg);
-  background-size: cover;
+  background-size: 70px auto;;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  padding: 3.5em;
+  padding: 2.5em;
 }
 
-.banner-tour {
+.banner-signup {
   background-image: url(../images/students.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,6 +81,7 @@ body{
   color: white;
   padding: 3.5em;
 }
+
 .skip-links{
   margin: 0;
   padding: 0;
@@ -180,7 +187,7 @@ input+label{
 }
 input{
   border-radius: 10px;
-  font-size: 2rem;
+  font-size:1rem;
   padding: 1em;
 }
 
@@ -206,6 +213,11 @@ a:visited {
 
 .nav li{
   display: inline-block;
+}
+
+.buckets {
+    padding: 1em;
+    width:60%;
 }
 
 
@@ -237,7 +249,13 @@ a:visited {
 }
 
 
+.buckets {
+    padding: 1em;
+    width:190%;
+}
+
 @media only screen and (min-width: 60em) {
+
 
 .title, {
    text-align: left;
@@ -248,5 +266,11 @@ a:visited {
   width: 90%;
   max-width: 10rem;
 }
+
+.buckets {
+    padding: 1em;
+    width:180%;
+}
+
 
 }

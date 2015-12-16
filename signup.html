@@ -85,18 +85,13 @@
     </div>
 
     <div class="push-1-2">
-      <label for="address">Address</label>
-      <input id="address" required name="Address">
-    </div>
-
-    <div class="push-1-2">
       <label for="city">City</label>
       <input id="city" required name="city">
     </div>
 
     <div class="push-1-2">
       <label for="province">Province</label>
-      <input id="province" list="provice-list" required placeholder="select state,province, or region">
+      <input id="province" list="provice-list" required>
       <datalist id="province-list">
         <option value="Alberta">
         <option value="Ontario">
@@ -105,19 +100,24 @@
       </datalist>
    </div>
 
+   <div class="push-1-2">
+     <label for="address">Address</label>
+     <input id="address" required name="Address">
+   </div>
+
    <div class="push">
      <label for="zip-postal-code">ZIP or postal code</label>
      <input id="zip-postal-code" required name="zip-postal-code">
    </div>
 
    <div class="push">
-     <label for="telephone-number">Telephone number here</label>
+     <label for="telephone-number">Telephone number</label>
      <input type="tel" id="telephone-number" required name="telephone-number">
     <div>
    </div>
 
 <div class="unit gutter xs-1 s-1 m-1 l-1 pad-b-1-2 text-center milli">
-   <button type="submit" class="btn tera gutter hover island-1-2 contrast oleo white-text" href="#" aria-label="Submit your information">Send</button>
+   <button type="submit" class="btn tera gutter hover island-1-2 contrast oleo white-text" aria-label="Submit your information">Send</button>
  </div>
 
 

@@ -52,13 +52,13 @@
     <h4>Contact Information</h4>
 
 <div class="push-1-2">
-   <label for="name">Full name</label>
-   <input id="name" name="name" required>
+   <label for="name">Name</label>
+   <input id="name" name="name" placeholder="Firstname Lastname" required="" type="text">
 </div>
 
 <div class="push-1-2">
-   <label for="name">Username</label>
-   <input id="name" name="name" required placeholder="Studentlife23">
+   <label for="text">Username</label>
+   <input id="text" name="text" required placeholder="Studentlife23">
   </div>
 
 <div class="push-1-2">
@@ -92,14 +92,14 @@
 
   <legend>Please select the plan you want:</legend>
 
-  <input id="Basic Features" type="radio" name="Paying">
-  <label for="Basic Features">Basic Features</label>
+  <input id="Basic" type="radio" name="Paying">
+  <label for="Basic">Basic Features</label>
 
-  <input id="Unstandard Features" type="radio" name="Paying">
-  <label for="Unstandard Features">Unstandard Features</label>
+  <input id="Unstandard" type="radio" name="Paying">
+  <label for="Unstandard">Unstandard Features</label>
 
-  <input id="Unlimited Options" type="radio" name="Paying">
-  <label for="Unlimited Options">Unlimited Options</label>
+  <input id="Unlimited-Options" type="radio" name="Paying">
+  <label for="Unlimited-Options">Unlimited Options</label>
 
 </fieldset>
 </div>
@@ -108,16 +108,17 @@
 <div class="unit gutter xs-1 s-1 m-1-3 l-1-3 pad-t-2 pad-b-1-2 text-center milli">
 <div>
 <fieldset>
+  <legend>Please chose one,of the account types:</legend>
   <div class="pad-t">
-    <legend>Please chose one,of the account types:</legend>
-    <label for="account type">Account Type</label>
-    <select id="account type" name="_account type">
+    <label for="account-type">Account Type</label>
+    <select id="account-type" name="account type">
       <option>Choose</option>
       <option>Basic Features $10</option>
       <option>Unstandard $15/month</option>
       <option>Unlimited $25/year</option>
     </select>
   </div>
+</fieldset>
 </div>
 </div>
 
@@ -147,13 +148,13 @@
 <h4>Please submit your card information</h4>
 
 <div class="push-1-2">
-   <label for="name">Name of cardhold</label>
-   <input id="name" name="name" required>
+   <label for="name-of-cardhold">Name of cardhold</label>
+   <input id="name-of-cardhold" name="name" required>
 </div>
 
 <div class="push-1-2">
-  <label for="Expiration Date">Expiration Date</label>
-  <input id="Expiration Date" type="date"  name="expiration">
+  <label for="Expiration-Date">Expiration Date</label>
+  <input id="Expiration-Date" type="date"  name="expiration">
 </div>
 
     <div class="push-1-2">
@@ -168,17 +169,17 @@
 
     <div class="push-1-2">
       <label for="province">Province</label>
-      <input id="province" list="provice-list" required>
-      <datalist id="province-list">
-        <option value="Alberta">
-        <option value="Ontario">
-        <option value="Québec">
-        <option value="Nova Scotia">
-      </datalist>
-   </div>
+        <input id="province" list="province-list" required placeholder="Select state,province,or region">
+          <datalist id="province-list">
+             <option value="Alberta">
+             <option value="Ontario">
+             <option value="Québec">
+             <option value="Nova Scotia">
+          </datalist>
+     </div>
 
    <div class="push-1-2">
-     <label for="">Address</label>
+     <label for="address">Address</label>
      <input id="address" required name="Address">
    </div>
 
@@ -198,7 +199,6 @@
 <input type="hidden" name="_next"
   value="http://izavalle23.github.io/SAAS-Website/thanks.html">
 
-</div>
 </div>
 </div>
 </form>

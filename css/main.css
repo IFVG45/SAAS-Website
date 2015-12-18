@@ -206,6 +206,7 @@ h1{
   color: #218f79;
   background-color: #e8e883;
   border-radius: 12px;
+  display: inline-block;
 }
 
 .bucketsbutton{

@@ -244,6 +244,7 @@ button{
   background-color:#e8e882;
 }
 
+
 a,
 a:link
 a:visited {
@@ -273,7 +274,7 @@ h4{
 
 .buttons {
     padding: 0.5em;
-    width:90%;
+    width:100%;
     border-radius: 4px;
     background-color: #e8e883;
 }
